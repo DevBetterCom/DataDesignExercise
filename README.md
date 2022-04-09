@@ -18,14 +18,22 @@ Using the non-normalized data in the **BlogPost** table below, create a database
 
 Fork this repository and add your tables here:
 
-### Blog Posts
+(your tables go here - you can use TableGenerator to create them. Include the data from the sample above in your tables)
+
+### Blog Table
 | Id | Slug                          | Title                                | Body           | AuthorName    | AuthorEmail                 | AuthorBio      | Category1            | Category2       | Tags                            | Views |
 |----|-------------------------------|--------------------------------------|----------------|---------------|-----------------------------|----------------|----------------------|-----------------|---------------------------------|-------|
 | 1  | serilog-structured-logging    | Structured Logging with Serilog      | Long Text Here | Eric Fleming  | ericfleming@nimblepros.com  | Long Text Here | Software Development | Cloud Computing | logging,serilog,appinsights     | 123   |
 | 2  | persisting-smart-enum         | Persisting a Smart Enum with EF Core | Long Text Here | Kyle McMaster | kylemcmaster@nimblepros.com | Long Text Here | Software Development | null            | smartenum,efcore                | 234   |
 | 3  | localization-aspnet-core-apis | Localization in ASP.NET Core APIs    | Long Text Here | Steve Smith   | steve@nimblepros.com        | Long Text Here | Software Development | Web APIs        | localization,aspnetcore,web-api | 345   |
 
-(your tables go here - you can use TableGenerator to create them. Include the data from the sample above in your tables)
+### Author Table
+| Id | AuthorName    | AuthorEmail                 | AuthorBio      |
+|----|---------------|-----------------------------|----------------|
+| 1  | Eric Fleming  | ericfleming@nimblepros.com  | Long Text Here |
+| 2  | Kyle McMaster | kylemcmaster@nimblepros.com | Long Text Here |
+| 3  | Steve Smith   | steve@nimblepros.com        | Long Text Here |
+
 
 ## Extra Credit
 

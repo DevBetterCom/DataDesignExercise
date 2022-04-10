@@ -34,6 +34,16 @@ Fork this repository and add your tables here:
 | 2  | Kyle McMaster | kylemcmaster@nimblepros.com | Long Text Here |
 | 3  | Steve Smith   | steve@nimblepros.com        | Long Text Here |
 
+### Category Table
+| Id | Category             | Blog_Id |
+|----|----------------------|---------|
+| 1  | Software Development | 1       |
+| 2  | Software Development | 2       |
+| 3  | Software Development | 1       |
+| 4  | Cloud Computing      | 3       |
+| 5  | null                 | 2       |
+| 6  | Web APIs             | 1       |
+
 
 ## Extra Credit
 

@@ -39,10 +39,9 @@ Fork this repository and add your tables here:
 |----|----------------------|---------|
 | 1  | Software Development | 1       |
 | 2  | Software Development | 2       |
-| 3  | Software Development | 1       |
-| 4  | Cloud Computing      | 3       |
-| 5  | null                 | 2       |
-| 6  | Web APIs             | 1       |
+| 3  | Software Development | 3       |
+| 4  | Cloud Computing      | 1       |
+| 5  | Web APIs             | 3       |
 
 
 ## Extra Credit

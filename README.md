@@ -41,6 +41,18 @@ Fork this repository and add your tables here:
 | 4  | Cloud Computing      | 1       |
 | 5  | Web APIs             | 3       |
 
+### Tags
+| Id | Name         |
+|----|--------------|
+| 1  | logging      |
+| 2  | serilog      |
+| 3  | appinsights  |
+| 4  | smartenum    |
+| 5  | efcore       |
+| 6  | localization |
+| 7  | aspnetcore   |
+| 8  | web-api      |
+
 
 ## Extra Credit
 

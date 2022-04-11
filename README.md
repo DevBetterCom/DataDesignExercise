@@ -53,6 +53,19 @@ Fork this repository and add your tables here:
 | 7  | aspnetcore   |
 | 8  | web-api      |
 
+### Tag Map
+| Id | Blog_Id | Tag_Id |
+|----|---------|--------|
+| 1  | 1       | 1      |
+| 2  | 1       | 2      |
+| 3  | 1       | 3      |
+| 4  | 2       | 4      |
+| 5  | 2       | 5      |
+| 6  | 3       | 6      |
+| 7  | 3       | 7      |
+| 8  | 3       | 8      |
+
+
 
 ## Extra Credit
 

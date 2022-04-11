@@ -28,11 +28,11 @@ Fork this repository and add your tables here:
 | 3  | localization-aspnet-core-apis | Localization in ASP.NET Core APIs    | Long Text Here | 345   |
 
 ### Author Table
-| Id | AuthorName    | AuthorEmail                 | AuthorBio      |
-|----|---------------|-----------------------------|----------------|
-| 1  | Eric Fleming  | ericfleming@nimblepros.com  | Long Text Here |
-| 2  | Kyle McMaster | kylemcmaster@nimblepros.com | Long Text Here |
-| 3  | Steve Smith   | steve@nimblepros.com        | Long Text Here |
+| Id | AuthorName    | AuthorEmail                 | AuthorBio      | Blog_Id |
+|----|---------------|-----------------------------|----------------|---------|
+| 1  | Eric Fleming  | ericfleming@nimblepros.com  | Long Text Here | 1       |
+| 2  | Kyle McMaster | kylemcmaster@nimblepros.com | Long Text Here | 2       |
+| 3  | Steve Smith   | steve@nimblepros.com        | Long Text Here | 3       |
 
 ### Category Table
 | Id | Category             | Blog_Id |

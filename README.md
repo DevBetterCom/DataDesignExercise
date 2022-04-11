@@ -4,7 +4,7 @@ Designing a database schema using normalization techniques.
 
 ## Instructions
 
-Using the non-normalized data in the **BlogPost** table below, create a database schema that will represent the same data in 3rd Normal Form.
+Using the non-normalized data in the **BlogPost** table below, create a database schema that will represent the same data in 3rd Normal Form. When you're done, make a pull request to the upstream repo ([this one](https://github.com/DevBetterCom/DataDesignExercise)) so we can discuss in the PR comments.
 
 ### Blog Posts
 

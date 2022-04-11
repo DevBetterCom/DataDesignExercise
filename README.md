@@ -21,11 +21,11 @@ Fork this repository and add your tables here:
 (your tables go here - you can use TableGenerator to create them. Include the data from the sample above in your tables)
 
 ### Blog Table
-| Id | Slug                          | Title                                | Body           | Category1            | Category2       | Tags                            | Views |
-|----|-------------------------------|--------------------------------------|----------------|----------------------|-----------------|---------------------------------|-------|
-| 1  | serilog-structured-logging    | Structured Logging with Serilog      | Long Text Here | Software Development | Cloud Computing | logging,serilog,appinsights     | 123   |
-| 2  | persisting-smart-enum         | Persisting a Smart Enum with EF Core | Long Text Here | Software Development | null            | smartenum,efcore                | 234   |
-| 3  | localization-aspnet-core-apis | Localization in ASP.NET Core APIs    | Long Text Here | Software Development | Web APIs        | localization,aspnetcore,web-api | 345   |
+| Id | Slug                          | Title                                | Body           | Views |
+|----|-------------------------------|--------------------------------------|----------------|-------|
+| 1  | serilog-structured-logging    | Structured Logging with Serilog      | Long Text Here | 123   |
+| 2  | persisting-smart-enum         | Persisting a Smart Enum with EF Core | Long Text Here | 234   |
+| 3  | localization-aspnet-core-apis | Localization in ASP.NET Core APIs    | Long Text Here | 345   |
 
 ### Author Table
 | Id | AuthorName    | AuthorEmail                 | AuthorBio      |
@@ -38,8 +38,9 @@ Fork this repository and add your tables here:
 | Id | Category             | Blog_Id |
 |----|----------------------|---------|
 | 1  | Software Development | 1       |
-| 4  | Cloud Computing      | 1       |
-| 5  | Web APIs             | 3       |
+| 2  | Software Development | 2       |
+| 3  | Cloud Computing      | 1       |
+| 4  | Web APIs             | 3       |
 
 ### Tags
 | Id | Name         |
